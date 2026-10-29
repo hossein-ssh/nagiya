@@ -1,0 +1,424 @@
+{
+  "version": 1,
+  "users": [
+    {
+      "id": "usr_super_admin",
+      "phone": "09120000001",
+      "fullName": "علیرضا موسوی (مدیر ارشد)",
+      "role": "super_admin",
+      "groupId": null,
+      "rank": 1,
+      "status": "active",
+      "passwordHash": "901a5e7720260c2c389d212c7ca64730572bdcc0d685334f65e7f446f24b274caf2a502e7a53777190db494e8466cd323770d02fa9a2c49ac08a8882f3a60436",
+      "passwordSalt": "e81d6b096fa55e9a1b5270c391cc944a",
+      "mustChangePassword": false,
+      "pointsBalance": 500,
+      "createdAt": "2026-10-27T16:00:34.603Z",
+      "updatedAt": "2026-10-27T16:00:34.603Z"
+    },
+    {
+      "id": "usr_leader",
+      "phone": "09120000002",
+      "fullName": "محمد حسینی (رهبر)",
+      "role": "leader",
+      "groupId": null,
+      "rank": 1,
+      "status": "active",
+      "passwordHash": "fee76705b3678d17eacd20a068ac0d382124d407903e665af88aaddd740d370c02214c486f65f672bb602f3d11df691e87b4c3b08c5eb68237f9397c62c1a060",
+      "passwordSalt": "5dd2bb2a15b0fbe077d4dc1ce5cf286d",
+      "mustChangePassword": false,
+      "pointsBalance": 400,
+      "createdAt": "2026-10-27T16:00:34.603Z",
+      "updatedAt": "2026-10-27T16:00:34.603Z"
+    },
+    {
+      "id": "usr_chief",
+      "phone": "09120000003",
+      "fullName": "حسین صادقی (فرمانده کل)",
+      "role": "commander_in_chief",
+      "groupId": null,
+      "rank": 1,
+      "status": "active",
+      "passwordHash": "427a1c391d053844a530aca6cf3a76c42f225dfd1fe1340b607b61869209cdf8698868e16f20509f03b6e62df2ed70e31f32a5179dae6adb121256b3dc1fa51e",
+      "passwordSalt": "074c982f430bc1b01db3bd012c8da974",
+      "mustChangePassword": false,
+      "pointsBalance": 350,
+      "createdAt": "2026-10-27T16:00:34.603Z",
+      "updatedAt": "2026-10-27T16:00:34.603Z"
+    },
+    {
+      "id": "usr_cmd_a",
+      "phone": "09120000010",
+      "fullName": "رضا کمالی (فرمانده گروه الف)",
+      "role": "group_commander",
+      "groupId": "group_a",
+      "rank": 2,
+      "status": "active",
+      "passwordHash": "a40e05c5a605273908ac4b9106a812905c28912e6c562cdbd3353c8382e87b0f0ed104948268a38329082884041f6704c4fc3f0ad54a9c385f2b59db2efb79c3",
+      "passwordSalt": "fb47543c586c2482ff74f9d95b1b5860",
+      "mustChangePassword": false,
+      "pointsBalance": 250,
+      "createdAt": "2026-10-27T16:00:34.603Z",
+      "updatedAt": "2026-10-27T16:00:34.603Z"
+    },
+    {
+      "id": "usr_sec_a",
+      "phone": "09120000011",
+      "fullName": "مهدی نجفی (منشی گروه الف)",
+      "role": "group_secretary",
+      "groupId": "group_a",
+      "rank": 3,
+      "status": "active",
+      "passwordHash": "eab4e283ac3dfc4fe578ec00859f41180916c1aa96fe6a380294ae96bd38b9a2f46120a9f82616e764ec01fdf6404023636b545112f3e4e909010b333ceb7db2",
+      "passwordSalt": "0dae4cb1b3bc6d544c34651f408b9314",
+      "mustChangePassword": false,
+      "pointsBalance": 180,
+      "createdAt": "2026-10-27T16:00:34.603Z",
+      "updatedAt": "2026-10-27T16:00:34.603Z"
+    },
+    {
+      "id": "usr_mem_a",
+      "phone": "09120000012",
+      "fullName": "امیرحسین رضایی (عضو گروه الف)",
+      "role": "regular_member",
+      "groupId": "group_a",
+      "rank": 4,
+      "status": "active",
+      "passwordHash": "d8c0ab12e4fe920f4e7a313db7f247f7cbfc02ce5e3bc7724e9bf15e15970bc9713e207629fd84a8a23ad2722b0dd7547c440388f33307403586afe094feb0bb",
+      "passwordSalt": "b61643534b1fd3aa2c251a0bf71c4567",
+      "mustChangePassword": true,
+      "pointsBalance": 80,
+      "createdAt": "2026-10-27T16:00:34.603Z",
+      "updatedAt": "2026-10-27T16:00:34.603Z"
+    },
+    {
+      "id": "usr_cmd_b",
+      "phone": "09120000020",
+      "fullName": "سجاد کاظمی (فرمانده گروه ب)",
+      "role": "group_commander",
+      "groupId": "group_b",
+      "rank": 2,
+      "status": "active",
+      "passwordHash": "82efadf4452d1b6f4e0a24a44985e7e3af599f43d7a4ad05af876284a0d8a278ff93a0aeabe7fc74c0c12a35a53fc5f07e4bf72d9a4e1b90cf507f26b9639aba",
+      "passwordSalt": "848161b1391a9dfac1b9f96e6f9c9797",
+      "mustChangePassword": false,
+      "pointsBalance": 240,
+      "createdAt": "2026-10-27T16:00:34.603Z",
+      "updatedAt": "2026-10-27T16:00:34.603Z"
+    },
+    {
+      "id": "usr_sec_b",
+      "phone": "09120000021",
+      "fullName": "محمود باقری (منشی گروه ب)",
+      "role": "group_secretary",
+      "groupId": "group_b",
+      "rank": 3,
+      "status": "active",
+      "passwordHash": "4e35aa65ebc49aa739c60d2de0dbd5812dc06a6c61b4cacfb5302afcb91c4cf490b06095faf5427a748b9dbc7881db7d14f797f1c8a86460f372dc61f673e7d8",
+      "passwordSalt": "3ede5b9c31c117cc4ac922e733ff0e95",
+      "mustChangePassword": false,
+      "pointsBalance": 170,
+      "createdAt": "2026-10-27T16:00:34.603Z",
+      "updatedAt": "2026-10-27T16:00:34.603Z"
+    },
+    {
+      "id": "usr_mem_b",
+      "phone": "09120000022",
+      "fullName": "علی اکبری (عضو گروه ب)",
+      "role": "regular_member",
+      "groupId": "group_b",
+      "rank": 5,
+      "status": "active",
+      "passwordHash": "a09aff84dc604407fc7d1d0ea53054b8e3145bc3ffc99834ccfd67c616ea7d3e2bc69a4577763a90aa838862d4a62a6133200d4c3d338e1cd1f15347170fb3b4",
+      "passwordSalt": "c4f00f366b93230da78ef67e63a8db5d",
+      "mustChangePassword": false,
+      "pointsBalance": 60,
+      "createdAt": "2026-10-27T16:00:34.603Z",
+      "updatedAt": "2026-10-27T16:00:34.603Z"
+    },
+    {
+      "id": "usr_disabled",
+      "phone": "09120000099",
+      "fullName": "کاربر مسدود شده (تست امنیت)",
+      "role": "regular_member",
+      "groupId": "group_a",
+      "rank": 5,
+      "status": "disabled",
+      "passwordHash": "0af821c690e1db9149444121ba615bb07de37fb60e320d08e72bf74575c84a597cfd8ccbeba8dc5f587eda384c43cd6b91142a76e4a459aa58160b9db6a95483",
+      "passwordSalt": "eea9314d1bcdcea61a5b1a8e656eede3",
+      "mustChangePassword": false,
+      "pointsBalance": 0,
+      "createdAt": "2026-10-27T16:00:34.603Z",
+      "updatedAt": "2026-10-27T16:00:34.603Z"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_a",
+      "name": "گروه الف (ذوالفقار)",
+      "codeName": "گروه رزمی و عملیاتی الف",
+      "description": "واحد عملیاتی شماره یک با تمرکز بر آمادگی میدانی و انضباط تشکیلاتی",
+      "commanderId": "usr_cmd_a",
+      "secretaryId": "usr_sec_a",
+      "createdAt": "2026-10-27T16:00:34.603Z"
+    },
+    {
+      "id": "group_b",
+      "name": "گروه ب (رعد)",
+      "codeName": "گروه پشتیبانی و تخصصی ب",
+      "description": "واحد پشتیبانی و هماهنگی با تمرکز بر مأموریت‌های پشتیبانی و رصد اطلاعاتی",
+      "commanderId": "usr_cmd_b",
+      "secretaryId": "usr_sec_b",
+      "createdAt": "2026-10-27T16:00:34.603Z"
+    }
+  ],
+  "rolePermissions": {
+    "super_admin": {
+      "manage_users": true,
+      "manage_roles": true,
+      "view_both_groups": true,
+      "manage_attendance": true,
+      "review_activities": true,
+      "manage_notices": true,
+      "manage_points": true,
+      "view_audit_logs": true,
+      "manage_backups": true
+    },
+    "leader": {
+      "manage_users": true,
+      "manage_roles": false,
+      "view_both_groups": true,
+      "manage_attendance": true,
+      "review_activities": true,
+      "manage_notices": true,
+      "manage_points": true,
+      "view_audit_logs": true,
+      "manage_backups": false
+    },
+    "commander_in_chief": {
+      "manage_users": true,
+      "manage_roles": false,
+      "view_both_groups": true,
+      "manage_attendance": true,
+      "review_activities": true,
+      "manage_notices": true,
+      "manage_points": true,
+      "view_audit_logs": true,
+      "manage_backups": false
+    },
+    "group_commander": {
+      "manage_users": false,
+      "manage_roles": false,
+      "view_both_groups": false,
+      "manage_attendance": true,
+      "review_activities": true,
+      "manage_notices": true,
+      "manage_points": true,
+      "view_audit_logs": false,
+      "manage_backups": false
+    },
+    "group_secretary": {
+      "manage_users": false,
+      "manage_roles": false,
+      "view_both_groups": false,
+      "manage_attendance": true,
+      "review_activities": false,
+      "manage_notices": true,
+      "manage_points": false,
+      "view_audit_logs": false,
+      "manage_backups": false
+    },
+    "regular_member": {
+      "manage_users": false,
+      "manage_roles": false,
+      "view_both_groups": false,
+      "manage_attendance": false,
+      "review_activities": false,
+      "manage_notices": false,
+      "manage_points": false,
+      "view_audit_logs": false,
+      "manage_backups": false
+    }
+  },
+  "attendance": [
+    {
+      "id": "att_1",
+      "groupId": "group_a",
+      "userId": "usr_mem_a",
+      "date": "2026-10-20",
+      "weekNumber": 42,
+      "status": "present",
+      "note": "حضور منظم در جلسه هفتگی",
+      "recordedByUserId": "usr_sec_a",
+      "createdAt": "2026-10-27T16:00:34.603Z",
+      "updatedAt": "2026-10-27T16:00:34.603Z"
+    },
+    {
+      "id": "att_2",
+      "groupId": "group_b",
+      "userId": "usr_mem_b",
+      "date": "2026-10-20",
+      "weekNumber": 42,
+      "status": "present",
+      "note": "حضور کامل در کارگاه آموزشی",
+      "recordedByUserId": "usr_sec_b",
+      "createdAt": "2026-10-27T16:00:34.603Z",
+      "updatedAt": "2026-10-27T16:00:34.603Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": "act_1",
+      "groupId": "group_a",
+      "userId": "usr_mem_a",
+      "title": "گزارش تمرین آمادگی جسمانی و مرور تاکتیک‌ها",
+      "description": "تمرین استقامتی گروهی به مدت ۲ ساعت و بررسی چک‌لیست تجهیزات فردی انجام شد.",
+      "category": "آمادگی جسمانی",
+      "hoursSpent": 2,
+      "status": "approved",
+      "awardedPoints": 20,
+      "reviewerId": "usr_cmd_a",
+      "reviewerComment": "بسیار عالی، گزارش کامل و دقیق است.",
+      "submittedAt": "2026-10-27T16:00:34.603Z",
+      "reviewedAt": "2026-10-27T16:00:34.603Z"
+    },
+    {
+      "id": "act_2",
+      "groupId": "group_b",
+      "userId": "usr_mem_b",
+      "title": "بررسی تجهیزات فنی و مستندسازی قطعات",
+      "description": "چک‌لیست اقلام ارتباطی گروه ب تکمیل گردید و گزارش به منشی ارائه شد.",
+      "category": "پشتیبانی فنی",
+      "hoursSpent": 3,
+      "status": "pending",
+      "submittedAt": "2026-10-27T16:00:34.603Z"
+    }
+  ],
+  "notices": [
+    {
+      "id": "not_1",
+      "targetGroupId": "all",
+      "type": "announcement",
+      "title": "دستورالعمل جامع ارزیابی و انضباط اعضا (پاییز ۱۴۰۵)",
+      "content": "کلیه اعضا و مسئولین موظف به رعایت دقیق برنامه هفتگی و ثبت به موقع گزارش‌ها در سامانه هستند.",
+      "priority": "high",
+      "createdByUserId": "usr_super_admin",
+      "createdAt": "2026-10-27T16:00:34.603Z",
+      "readByUserIds": [
+        "usr_super_admin",
+        "usr_leader"
+      ]
+    },
+    {
+      "id": "not_2",
+      "targetGroupId": "group_a",
+      "type": "task_mission",
+      "title": "ابلاغ مأموریت مانور محدود گروه الف",
+      "content": "جلسه توجیهی مانور روز پنج‌شنبه رأس ساعت ۸ صبح در قرارگاه برگزار خواهد شد.",
+      "priority": "urgent",
+      "createdByUserId": "usr_cmd_a",
+      "createdAt": "2026-10-27T16:00:34.603Z",
+      "readByUserIds": [
+        "usr_cmd_a"
+      ]
+    },
+    {
+      "id": "not_3",
+      "targetGroupId": "group_b",
+      "type": "reward",
+      "title": "تشویق اعضای گروه ب بابت نظم در تحویل تجهیزات",
+      "content": "از کلیه نیروهای گروه ب بابت اتمام به‌موقع انبارگردانی تقدیر به عمل می‌آید.",
+      "priority": "medium",
+      "createdByUserId": "usr_cmd_b",
+      "createdAt": "2026-10-27T16:00:34.603Z",
+      "readByUserIds": [
+        "usr_cmd_b"
+      ]
+    }
+  ],
+  "pointTransactions": [
+    {
+      "id": "pt_1",
+      "userId": "usr_mem_a",
+      "groupId": "group_a",
+      "amount": 20,
+      "balanceAfter": 80,
+      "reason": "تأیید گزارش تمرین آمادگی جسمانی",
+      "category": "activity_reward",
+      "referenceId": "act_1",
+      "createdByUserId": "usr_cmd_a",
+      "createdAt": "2026-10-27T16:00:34.603Z"
+    }
+  ],
+  "spendingRequests": [],
+  "scoringRules": [
+    {
+      "id": "rule_presence",
+      "name": "حضور به موقع در جلسه هفتگی",
+      "category": "حضور و غیاب",
+      "defaultPoints": 10,
+      "description": "ثبت حضور بدون تأخیر در جلسه هفتگی گروه"
+    },
+    {
+      "id": "rule_activity_small",
+      "name": "گزارش فعالیت استاندارد",
+      "category": "فعالیت",
+      "defaultPoints": 20,
+      "description": "ثبت و تأیید گزارش فعالیت روزانه یا هفتگی"
+    },
+    {
+      "id": "rule_activity_major",
+      "name": "انجام مأموریت ویژه",
+      "category": "مأموریت",
+      "defaultPoints": 50,
+      "description": "تکمیل مأموریت ابلاغی با نمره عالی"
+    },
+    {
+      "id": "rule_reward",
+      "name": "تشویق انضباطی یا علمی",
+      "category": "تشویقی",
+      "defaultPoints": 30,
+      "description": "پاداش رفتار سازمانی و پیشرفت شاخص‌ها"
+    },
+    {
+      "id": "rule_leave_cost",
+      "name": "هزینه درخواست مرخصی تشویقی",
+      "category": "کسر امتیاز",
+      "defaultPoints": -40,
+      "description": "کسر امتیاز بابت درخواست یک روز مرخصی تشویقی"
+    }
+  ],
+  "auditLogs": [
+    {
+      "actorUserId": "usr_super_admin",
+      "actorPhone": "09120000001",
+      "actorRole": "super_admin",
+      "action": "LOGIN_SUCCESS",
+      "category": "auth",
+      "targetUserId": "usr_super_admin",
+      "targetGroupId": null,
+      "details": "ورود موفق به سامانه مدیریت اعضا.",
+      "ipAddress": "127.0.0.1",
+      "id": "log_1793116935028_plfif",
+      "timestamp": "2026-10-27T16:02:15.028Z"
+    },
+    {
+      "id": "log_init",
+      "timestamp": "2026-10-27T16:00:34.603Z",
+      "actorUserId": "usr_super_admin",
+      "actorPhone": "09120000001",
+      "actorRole": "super_admin",
+      "action": "SYSTEM_INITIALIZATION",
+      "category": "system",
+      "details": "سامانه و پایگاه داده با پیکربندی اولیه و داده‌های تستی راه‌اندازی شد."
+    }
+  ],
+  "sessions": [
+    {
+      "token": "f1b89c51dfb634218a9df7d4891a1c24e46c510ba46c591aa0624133b5ed99cc",
+      "userId": "usr_super_admin",
+      "createdAt": 1793116935027,
+      "expiresAt": 1793203335027
+    }
+  ]
+}
