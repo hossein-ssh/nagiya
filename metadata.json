@@ -1,0 +1,6 @@
+{
+  "name": "سامانه مدیریت اعضا و گروه‌های مستقل",
+  "description": "سامانه یکپارچه و امن مدیریت اعضا، سطوح دسترسی، گروه‌های الف و ب، حضور و غیاب، فعالیت‌ها و امتیازات",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

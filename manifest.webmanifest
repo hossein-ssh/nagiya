@@ -1,0 +1,19 @@
+{
+  "name": "سامانه مدیریت اعضا و گروه‌های مستقل",
+  "short_name": "سامانه مدیریت",
+  "description": "سامانه مدیریت اعضا، حضور و غیاب، گزارشات و امتیازات گروه‌ها",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1e293b",
+  "dir": "rtl",
+  "lang": "fa",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

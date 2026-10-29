@@ -1,0 +1,15 @@
+{
+  "platform": "node",
+  "port": 3000,
+  "node": {
+    "version": "20"
+  },
+  "build": "npm run build",
+  "start": "npm start",
+  "disks": [
+    {
+      "name": "data-volume",
+      "mountTo": "data"
+    }
+  ]
+}
