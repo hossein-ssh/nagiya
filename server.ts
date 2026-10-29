@@ -40,11 +40,11 @@ async function startServer() {
     app.use(express.static(publicPath));
   }
 
-  const distPath = path.resolve(process.cwd(), 'dist');
+const distPath = path.resolve(process.cwd(), 'dist');
   const hasDist = fs.existsSync(distPath) && fs.existsSync(path.join(distPath, 'index.html'));
 
-  if (isProduction && hasDist) {
-    // Production mode with built assets
+  if (hasDist) {
+    // حالت پروداکشن با فایل‌های کامپایل‌شده
     app.use(express.static(distPath));
     app.get('*', (req, res) => {
       if (req.path.startsWith('/api')) {
@@ -53,11 +53,12 @@ async function startServer() {
       res.sendFile(path.join(distPath, 'index.html'));
     });
   } else {
-    // Development mode or fallback if dist has not been compiled yet
+    // در صورت نبود پوشه dist
     const { createServer: createViteServer } = await import('vite');
     const vite = await createViteServer({
       server: {
         middlewareMode: true,
+        allowedHosts: true,
         hmr: process.env.DISABLE_HMR !== 'true',
         watch: process.env.DISABLE_HMR === 'true' ? null : {},
       },
@@ -65,7 +66,6 @@ async function startServer() {
     });
     app.use(vite.middlewares);
   }
-
   app.listen(PORT, '0.0.0.0', () => {
     console.log(`[سرور] سامانه با موفقیت بر روی پورت ${PORT} راه‌اندازی شد.`);
     console.log(`[سرور] آدرس: http://localhost:${PORT}`);
